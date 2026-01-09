@@ -1,0 +1,102 @@
++---------------------------------------------------+
+| Intrusion Detection in Wireless Sensor Networks 1 |
++---------------------------------------------------+
+
+    1. Dataset
+        * https://www.kaggle.com/datasets/bassamkasasbeh1/wsnds
+
+    2. Preprocessing
+        * Categorical To Numerical
+        * Normalization
+            * Min-Max Scaler
+    
+    3. Modeling
+        * Training:Testing - 70:30
+        * Classifier - LightGBM
+        * Parameter Optimization - Giant Trevally Optimizer
+        * Parameters
+            - IntegerVar(1, 100, name="n_estimators")
+            - IntegerVar(1, 10, name="max_depth")
+            - IntegerVar(1, 10, name="max_leaves")
+            - FloatVar(0.00001, 1.0, name="learning_rate")
+    
+    4. Evaluation
+        * Visuals
+            * Confusion Matrix
+            * PR-Curve
+            * ROC-Curve
+            * Accuracy
+        * Metrics
+            * Accuracy
+            * Precision
+            * Recall
+            * F1-Score
+            * MCC
+
++---------------------------------------------------+
+| Intrusion Detection in Wireless Sensor Networks 2 |
++---------------------------------------------------+
+
+    1. Dataset
+        * https://www.kaggle.com/datasets/bassamkasasbeh1/wsnds
+
+    2. Preprocessing
+        * Categorical To Numerical
+        * Normalization
+            * Min-Max Scaler
+    
+    3. Feature Selection
+        * Improved Artificial Rabbit Optimization
+    
+    4. Modeling
+        * Training:Testing - 70:30
+        * Classifier - TabNet
+        * Optimizer - RMSProp
+    
+    5. Evaluation
+        * Visuals
+            * Confusion Matrix
+            * PR-Curve
+            * ROC-Curve
+            * Accuracy
+        * Metrics
+            * Accuracy
+            * Precision
+            * Recall
+            * F1-Score
+            * MCC
+
+
+
++---------------------------------------------------+
+| Intrusion Detection in Wireless Sensor Networks 3 |
++---------------------------------------------------+
+
+    1. Dataset
+        * https://www.kaggle.com/datasets/bassamkasasbeh1/wsnds
+
+    2. Preprocessing
+        * Categorical To Numerical
+        * Normalization
+            * Min-Max Scaler
+    
+    3. Feature Selection
+        * Improved Artificial Rabbit Optimization
+    
+    4. Modeling
+        * Training:Testing - 70:30
+        * Classifier - Convolutional Gated Attention Recurrent Neural Network
+        * Optimizer - Muon
+    
+    5. Evaluation
+        * Visuals
+            * Confusion Matrix
+            * PR-Curve
+            * ROC-Curve
+            * Accuracy
+        * Metrics
+            * Accuracy
+            * Precision
+            * Recall
+            * F1-Score
+            * MCC
